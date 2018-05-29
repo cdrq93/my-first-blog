@@ -25,7 +25,7 @@ SECRET_KEY = '+(yh3n(xd^0swr_82y@u)b-93nrzs2!yswkz9le7pt#hcg45&4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhos', '127.0.0.1', '.pythonanywhere.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.pythonanywhere.com']
 
 
 # Application definition
@@ -120,3 +120,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+IMAGES_URL = '/images/'
+IMAGES_ROOT = os.path.join(BASE_DIR, 'images')
