@@ -122,3 +122,6 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 IMAGES_URL = '/images/'
 IMAGES_ROOT = os.path.join(BASE_DIR, 'images')
+
+
+LOGIN_REDIRECT_URL = '/'
